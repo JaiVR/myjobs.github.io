@@ -1,38 +1,130 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+nav{
+  color: white;
+  background-color: rgb(0, 166, 255);
+  text-align: center;
+  padding: 0.64%;
+
+}
+.heart{
+  height: 30px;
+  align-items: center;
+}
+.the-content{
+  padding: 10%;
+}
+.App{
+  font-family: "Poppins";
+  
+}
+.Footer{
+  padding: 5%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main{
+  padding: 8%;
+  font-family: "Poppins";
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Title-Place{
+  padding: 2%;
+  display:flex;
+  justify-content: space-around;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Work-nature{
+  padding: 2%;
+  display: flex;
+  flex-direction: column; 
+  
+}
+.search-button{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.search-button-button{
+  grid-column-start: 2;
+  
+}
+button{
+    width: 256px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: rgb(0, 166, 255);
+    border-color: rgb(0, 166, 255);
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+}
+button:hover{
+  color: rgb(0, 166, 255);
+  background-color: white;
+  border-color: rgb(0, 166, 255);
+  font-size: larger;
+  font-weight: 400;
+}
+input{
+  border-radius: 4px;
+  border-color: rgb(0, 166, 255);
+}
+.Work-key-input,.Work-location-input{
+  width: 300px;
+  height: 36px;
+}
+.Listjobs{
+  
+  padding: 10%;
+  
+  
+}
+.job-cards{
+  
+  display: flex;
+  justify-content: space-around;
+  border-style:outset;
+  border-radius: 10px;
+  border-color: rgb(0, 166, 255);
+  padding: 8%;
+  
+  margin: 1.3rem 0;
+  
+}
+.nature-location{
+  color:rgb(89, 91, 92);
+}
+.job-details{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0.5rem 0;
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 480px){
+  .Title-Place{
+    padding: 2%;
+    display:grid;
+    grid-template-rows: 1fr 1fr 0.075fr;
+    grid-row-gap: 36px;
+    
+  }
+  .job-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-style:outset;
+    border-radius: 10px;
+    border-color: rgb(0, 166, 255);
+    padding: 8%;
+    
+    margin: 1.3rem 0;
+    
+  }
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
