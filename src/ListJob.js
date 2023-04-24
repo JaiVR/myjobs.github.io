@@ -41,7 +41,43 @@ function ListJob() {
              ,company:"Nothing",skills:"Flutter,Kotlin",
              about:"Do nothing get peid",fullTime:true
             
+         },
+         {title:"Taxi Driver",nature:"Full-time",location:"UAE"
+             ,company:"DXB taxi",skills:"5 yrs of driving experience",
+             about:"Do nothing get peid",fullTime:true
+            
+         },
+         {title:"Backend developer",nature:"Part-time",location:"USA"
+             ,company:"Microsoft",skills:"Django , Python",
+             about:"Do nothing get peid",partTime:true
+            
+         },
+         {title:"Frontend Developer",nature:"Full-time",location:"Japan"
+             ,company:"Nothing",skills:"React.js",
+             about:"Do nothing get peid",fullTime:true
+            
+         },
+         {title:"SalesWoman",nature:"Part-time",location:"India"
+             ,company:"Hotel Annapoorna",skills:"None",
+             about:"nothing much be energetic",fullTime:true
+            
+         },
+         {title:"App Developer",nature:"Part-time",location:"USA"
+             ,company:"Google",skills:"Flutter,Kotlin",
+             about:"Do everything  get no peid",partTime:true
+            
+         },
+         {title:"Assistant",nature:"Part-time",location:"North Korea"
+             ,company:"Kim's office",skills:"Tolerance",
+             about:"please come work for me",partTime:true
+            
+         },
+         {title:"Full Stack Developer",nature:"Full-time",location:"Japan"
+             ,company:"Nothing",skills:"Full stack dev",
+             about:"I really dunno wat to write",fullTime:true
+            
          }
+
         ])
   
 
