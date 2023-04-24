@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/JaiVR/myjobs.github.io/static/css/main.308f9621.css",
-    "main.js": "/JaiVR/myjobs.github.io/static/js/main.e734a57f.js",
-    "static/js/787.9b68fb6d.chunk.js": "/JaiVR/myjobs.github.io/static/js/787.9b68fb6d.chunk.js",
-    "index.html": "/JaiVR/myjobs.github.io/index.html",
-    "main.308f9621.css.map": "/JaiVR/myjobs.github.io/static/css/main.308f9621.css.map",
-    "main.e734a57f.js.map": "/JaiVR/myjobs.github.io/static/js/main.e734a57f.js.map",
-    "787.9b68fb6d.chunk.js.map": "/JaiVR/myjobs.github.io/static/js/787.9b68fb6d.chunk.js.map"
+    "main.css": "/myjobs.github.io/static/css/main.308f9621.css",
+    "main.js": "/myjobs.github.io/static/js/main.d4120d0b.js",
+    "static/js/787.9b68fb6d.chunk.js": "/myjobs.github.io/static/js/787.9b68fb6d.chunk.js",
+    "index.html": "/myjobs.github.io/index.html",
+    "main.308f9621.css.map": "/myjobs.github.io/static/css/main.308f9621.css.map",
+    "main.d4120d0b.js.map": "/myjobs.github.io/static/js/main.d4120d0b.js.map",
+    "787.9b68fb6d.chunk.js.map": "/myjobs.github.io/static/js/787.9b68fb6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.308f9621.css",
-    "static/js/main.e734a57f.js"
+    "static/js/main.d4120d0b.js"
   ]
 }
